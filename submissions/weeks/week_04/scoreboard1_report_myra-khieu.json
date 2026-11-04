@@ -1,0 +1,78 @@
+{
+  "student": "Myra Khieu",
+  "variant": "emission-direct__profile-asymmetric__width-amplitude",
+  "kind": "candidate",
+  "question": "Can space-time solar emergence profiles outperform the baseline out-of-sample?",
+  "spec": {
+    "shape": "gamma",
+    "pooling": "shared",
+    "drift": "exponential",
+    "profile": "asymmetric",
+    "width": "amplitude",
+    "gate": "none",
+    "emission": "direct"
+  },
+  "fitted_parameters": 26,
+  "held_out_nll_per_hemicycle_year": -26.34696676663861,
+  "between_hemicycle_spread": 18.57997448849282,
+  "paired_vs_baseline": {
+    "mean": -0.921266592297035,
+    "se": 0.30142419307988344,
+    "median": -0.6797169920867105,
+    "better": 17,
+    "of": 18
+  },
+  "ks_median": 0.04598292514695561,
+  "ks_not_rejected": 8,
+  "count_error_percent": -0.5748308965049871,
+  "protocol": {
+    "held_out_unit_contributed": [
+      "amplitude",
+      "t0"
+    ]
+  },
+  "fingerprint": {
+    "recipe": {
+      "mesh": [
+        201,
+        241
+      ],
+      "domain": [
+        0.0,
+        60.0
+      ],
+      "window": [
+        -6.0,
+        11.0
+      ],
+      "folds": [
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        21,
+        23
+      ],
+      "withheld": [
+        16,
+        20,
+        22
+      ],
+      "analysis_set": [
+        12,
+        23,
+        30.0
+      ],
+      "gauge": [
+        1.0,
+        1.0,
+        15.0
+      ],
+      "headline_amplitude": "area record"
+    },
+    "digest": "5e55384fbc54"
+  }
+}
